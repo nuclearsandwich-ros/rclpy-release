@@ -1,0 +1,12 @@
+Source: ros-verystable-rclpy
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-verystable-ament-cmake, ros-verystable-ament-cmake-pytest, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-python-cmake-module, ros-verystable-rcl, ros-verystable-rcl-action, ros-verystable-rcl-yaml-param-parser, ros-verystable-rcutils, ros-verystable-rmw-implementation, ros-verystable-rmw-implementation-cmake, ros-verystable-rosidl-generator-py, ros-verystable-test-msgs, ros-verystable-unique-identifier-msgs, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rclpy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-index-python, ros-verystable-builtin-interfaces, ros-verystable-rcl, ros-verystable-rcl-action, ros-verystable-rcl-interfaces, ros-verystable-rcl-yaml-param-parser, ros-verystable-rmw-implementation, ros-verystable-rosgraph-msgs, ros-verystable-unique-identifier-msgs, ros-verystable-ros-workspace
+Description: Package containing the Python client.
