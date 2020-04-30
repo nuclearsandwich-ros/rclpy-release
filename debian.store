@@ -1,1 +1,1 @@
-{"trim": "", "base": "e9228ae", "trimbase": "", "parent": "debian/eloquent/rclpy", "previous": "9657391"}
+{"base": "99860a2", "parent": "debian/verystable/rclpy", "previous": "cff0f3a", "trim": "", "trimbase": ""}
