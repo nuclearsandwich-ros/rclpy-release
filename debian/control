@@ -1,0 +1,12 @@
+Source: ros-testing-rclpy
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-testing-ament-cmake, ros-testing-ament-cmake-gtest, ros-testing-ament-cmake-pytest, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-python-cmake-module, ros-testing-rcl, ros-testing-rcl-action, ros-testing-rcl-yaml-param-parser, ros-testing-rcutils, ros-testing-rmw-implementation, ros-testing-rmw-implementation-cmake, ros-testing-rosidl-generator-py, ros-testing-test-msgs, ros-testing-unique-identifier-msgs, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rclpy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ament-index-python, ros-testing-builtin-interfaces, ros-testing-rcl, ros-testing-rcl-action, ros-testing-rcl-interfaces, ros-testing-rcl-yaml-param-parser, ros-testing-rmw-implementation, ros-testing-rosgraph-msgs, ros-testing-unique-identifier-msgs, ros-testing-ros-workspace
+Description: Package containing the Python client.
